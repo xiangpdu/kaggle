@@ -1,1 +1,10 @@
+Acquire data
+In many conditions, there are some column contain null value, this python line is to identify if any null value contains in one DataFrame:
 
+train_df.isnull().any()
+
+Analyze by describing data
+
+Which features are available in the dataset?
+train_df.head()   to see the head lines of the dataset.
+train_df.tail()   to see the tail lines of the dataset.
